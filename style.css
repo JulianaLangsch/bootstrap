@@ -1,0 +1,19 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Inverte a cor das setas (branco -> preto e vice-versa) */
+}
+
+/* Opcional: Adicionar hover para melhorar a experiência do usuário */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    filter: invert(0.5); /* Ajusta a cor ao passar o mouse */
+}
+
+
+body {
+background-image:url(papel.jpg);
+}
+
+.carousel-inner {
+padding: 20px;
+}
